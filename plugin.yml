@@ -1,0 +1,14 @@
+name: EconomyPlugin
+main: dmitr.ecn.EconomyPlugin
+author: theDmitr
+version: Alpha-Test
+api-version: 1.13
+database: true
+description: It`s economy plugin for minecraft!
+
+commands:
+   search:
+      description: Обыск игроков
+      usage: /<command>
+      permission: <plugin name>.search
+      permission-message: Вы не имеете права на обыск игроков!
